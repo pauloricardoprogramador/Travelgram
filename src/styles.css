@@ -16,9 +16,9 @@
   --text-color-secondary: #6c6c6c;
 
   --font-family: "Poppins", serif;
-  --heading1: bold 32px/125% var(var(--font-family));
+  --heading1: bold 32px/125% var(--font-family);
   --paragraph-md: 14px/170% var(--font-family);
-  --Paragraph-sm: 12px/170% var(var(--font-family));
+  --Paragraph-sm: 12px/170% var(v--font-family);
 }
 
 body {
@@ -40,4 +40,50 @@ header {
   justify-content: center;
   gap: 1rem;
   font: var(--paragraph-md);
+}
+
+.main-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: var(--surface-color);
+}
+
+.main-header {
+  display: flex;
+  width: 592px;
+}
+
+.header-textos {
+  width: 384px;
+  padding-left: 2rem;
+}
+
+.header-textos h1 {
+  font: var(--heading1);
+  margin-bottom: 8px;
+  color: var(--text-color-primary);
+}
+
+.header-textos span {
+  font: var(--paragraph-md);
+  color: var(--text-color-secondary);
+}
+
+.main-header-two {
+  padding: 68px;
+}
+
+.item-texto {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+
+.item-texto span {
+  padding-left: 8px;
+  font: var(--paragraph-md);
+  color: var(--text-color-secondary);
 }
